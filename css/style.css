@@ -597,10 +597,13 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3){to
         .w-item-rea:nth-child(7) {order: 6;}
         .w-item-rea:nth-child(8) {order: 8;}
 
-@media (min-width:768px){
+@media (max-width:768px){
     .h-part{
         padding-bottom: 30px;
     }
+}
+
+@media (min-width:768px){
 	/* .w-item-rea:nth-child(1) .num-rea, .w-item-rea:nth-child(2) .num-rea, .w-item-rea:nth-child(3) .num-rea {
 		order: 1;
 	}
